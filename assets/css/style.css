@@ -4,23 +4,22 @@ position:relative;
 background-color:moccasin;
 height: 600px;
 width: auto;
-
-
 }
 
 #box-about{
 background-color: olive;
 height:600px;
 width: 60%;
-/* position: relative; */
+position: absolute;
 margin-left: 20px;
 margin-top: 20px;
 float: left;
 }
 
 #main-text{
-    text-align: center;
-    float: right;
+    /* text-align: center; */
+    /* float: right; */
+    align-content: center;
 }
 
 li{
@@ -29,15 +28,13 @@ li{
 
 img{
     margin-left: 50px;
-
 }
 
 
-
-/* ul{
+ul{
 text-align: left;
 
-} */
+}
 
 #nav-bar{
     list-style-type: none;
@@ -67,13 +64,7 @@ p{
     color: white;
 }
 
-/* li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-} */
+
 h1{
     margin-left: 20px;
 }
