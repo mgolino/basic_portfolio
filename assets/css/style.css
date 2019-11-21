@@ -1,24 +1,35 @@
 
+
+
 .main-section{
 position: relative;
 background-color:moccasin;
 height: 800px;
 width: auto;
 }
+.main-text {
+    float: right;
+    margin-right: 45px;
+    line-height: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* content: " ";
+    display: block;
+    clear: both; */
+  }
 
 #box-about{
 position: absolute;
 background-color: olive;
 height:500px;
-width: 60%;
+width: auto%;
 margin-left: 360px;
-margin-top: 20px;
-
+margin-top: 27px;
 }
 
 
 img{
     margin-left: 50px;
+    margin-top:27px;
 }
 
 
@@ -46,9 +57,9 @@ h2{
     color: white;
 }
 
-p{
+/* p{
     color: white;
-}
+} */
 
 
 h1{
