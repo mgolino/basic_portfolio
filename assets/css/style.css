@@ -9,27 +9,36 @@ width: auto;
 }
 .main-text {
     float: right;
-    margin-right: 45px;
+    margin-right: -10px;
     line-height: 2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* content: " ";
+    content: " ";
     display: block;
-    clear: both; */
+    clear: both;
   }
 
 #box-about{
 position: absolute;
 background-color: olive;
 height:500px;
-width: auto%;
+/* width: auto; */
 margin-left: 360px;
 margin-top: 27px;
+margin-right: 330px;
 }
 
+.list{
+    float: left;
+    margin: 20px 20px;
+    font-size: larger;
 
-img{
+}
+.imagebio{
+    float: left;
     margin-left: 50px;
     margin-top:27px;
+    height: 200px;
+    width: 200px;
 }
 
 
@@ -64,4 +73,55 @@ h2{
 
 h1{
     margin-left: 20px;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cform{
+    float: right;
+    margin-left: 185px;
+    margin-right: 170px;
+    margin-top: -80px;
+}
+
+.welcome-page{
+/* float: right; */
+margin-top: 50px;
+font-family: Arial, Helvetica, sans-serif;
+/* font-weight: bold; */
+line-height: 2;
+font-size: medium;
+font-style: italic;
+margin-left: 330px;
+margin-right: 140px;
+
+}
+/* fieldset{
+    width:400px;
+    height: 300px;
+} */
+
+.welcome{
+font-size: 50px;
+font-weight: bold;
+font-style: italic;
+}
+
+/* .port1{
+    float: left;
+    margin: 2;
+}
+port2{
+    float: left;
+} */
+
+.port-section{
+    width: 960px;
+    margin: 0 auto;
+
+}
+.portimg{
+    float: left;
+    margin: 10px;
 }
