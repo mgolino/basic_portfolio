@@ -1,40 +1,26 @@
 
 .main-section{
-position:relative;
+position: relative;
 background-color:moccasin;
-height: 600px;
+height: 800px;
 width: auto;
 }
 
 #box-about{
-background-color: olive;
-height:600px;
-width: 60%;
 position: absolute;
-margin-left: 20px;
+background-color: olive;
+height:500px;
+width: 60%;
+margin-left: 360px;
 margin-top: 20px;
-float: left;
+
 }
 
-#main-text{
-    /* text-align: center; */
-    /* float: right; */
-    align-content: center;
-}
-
-li{
-    float: right;
-}
 
 img{
     margin-left: 50px;
 }
 
-
-ul{
-text-align: left;
-
-}
 
 #nav-bar{
     list-style-type: none;
