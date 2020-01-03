@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+    var choices =["r", "p", "s"];
+
+    var wins = 0;
+    var losses = 0;
+    var ties = 0;
+
+    for(var a=0; a < 10; a++){
+
+        // Randomly have computer choose an option
+       var compGuess = choices[Math.floor(Math.random() * choices.length)];
+
+    //    Take the users choice and then convert to lowercase
+       var playerPick = prompt("Choose R, S, or P and play our game!");
+       playerPick = playerPick.toLowerCase();
+
+        if (playerPick === "r" || playerPick === "p" || playerPick ==="s"); {
+
+            alert("The Computer's choice was " + compGuess);
+        
+        // win/lose conditions
+        if ((playerPick === "r" && compGuess === "s") ||
+            (playerPick === "s" && compGuess === "p") ||
+            (playerPick === "p" && compGuess === "r")) {
+                wins++;
+                alert("you have won " + wins + " time(s)!!");
+            }
+            
+        else if(playerPick === compGuess) {
+            ties++;
+            alert("You have " + ties + " ties!");
+        } else {
+            losses++;
+            alert("You have lost " + losses + "this many times");
+        }    
+        }
+
+    }
+ 
+   
+    
+    
+    
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Window Scope</title>
+  </head>
+  <body>
+    <h1>Open the console to see the magic!</h1>
+
+    <script>
+   
+      function computerDetection(){
+        for (var i=0; i < 1; i++); {
+    
+    if (navigator.platform === "MacIntel") {
+        console.log("You have a MAC!");
+    }
+    //Check if browser is Chrome
+    else  {
+        console.log("You have a PC");
+    }
+    }
+
+
+      }
+   
+    
+  computerDetection();
+
+// };
+// (navigator.platform === "Win32")
+      // navigator.platform = MacIntel
+
+
+    </script>
+  </body>
+</html>
